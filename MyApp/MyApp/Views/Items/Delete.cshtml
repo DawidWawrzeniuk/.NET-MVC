@@ -1,0 +1,15 @@
+﻿@using Microsoft.AspNetCore.Mvc.ModelBinding
+@model MyApp.Models.Item
+@{
+	ViewData["Title"] = "Delete";
+}
+
+<h3>Are you sure you want to delete this item?</h3>
+
+<p>@Model.Name</p>
+<p>@Model.Price $</p>
+
+<form asp-action="Delete" method="post">							    @* <form asp-action="Delete" method="post">: Tworzy formularz, który zostanie wysłany metodą POST do akcji Delete w kontrolerze, kiedy użytkownik kliknie "Delete". *@
+	<input type="hidden" asp-for="Id" />								@*  <input type="hidden" asp-for="Id" />: Przechowuje Id elementu, dzięki czemu akcja Delete w kontrolerze będzie wiedzieć, który element usunąć. Pole hidden oznacza, że jest ono ukryte i użytkownik nie może go zmienić. *@
+	<input type="submit" class="btn btn-danger" value="Delete" />		@* <input type="submit" class="btn btn-danger" value="Delete" />: Tworzy przycisk Delete, który przesyła formularz, aby ostatecznie potwierdzić usunięcie. *@
+</form>
