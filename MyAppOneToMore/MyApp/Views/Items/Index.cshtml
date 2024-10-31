@@ -1,0 +1,37 @@
+﻿ @model List<MyAppOneToMany.Models.Item>	//@model określa typ danych, które będą przekazywane do widoku z kontrolera.
+@{
+	ViewData["Title"] = "Index";//ViewData["Title"] = "Index"; ustawia tytuł strony (widoku) na Index. To, co zapisane w ViewData["Title"], można później odwołać w szablonie strony, np. w tagu <title> w layoucie strony.
+
+
+}
+<h3>Index</h3>
+
+<table class="table">
+	<thead>					<!--Nagłówek tabeli (<thead>): Zawiera wiersz (<tr>) z nagłówkami kolumn:
+							<th>Name</th>: Nagłówek pierwszej kolumny, która będzie wyświetlać nazwę przedmiotu.	
+							<th>Price</th>: Nagłówek drugiej kolumny, która będzie wyświetlać cenę przedmiotu.-->
+		<tr>
+			<th>Name</th>
+			<th>Price</th>
+			<th>Serial Number</th>
+			<th>Category</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach(var item in Model)
+		{
+			<tr>												@* otwiera wiersz tabeli  *@
+				<td>@item.Name</td>								@* wyświetlenie Name w pierwszej kolumnie wiersza *@
+				<td>@item.Price.ToString("N2")</td>
+				<td>@item.SerialNumber?.Name</td>
+				<td>@item.Category?.Name</td>
+
+				 <td>
+					<a asp-action="Edit" asp-route-id="@item.Id">Edit</a>				@* Atrybut asp-route-id w ASP.NET (szczególnie w ASP.NET Core) służy do tworzenia dynamicznych linków w aplikacjach webowych. Umożliwia on łatwe przekazywanie wartości w adresie URL, co jest przydatne, gdy chcesz wskazać, które dane mają być wyświetlane lub przetwarzane w danej akcji kontrolera. *@
+					<a asp-action="Delete" asp-route-id="@item.Id">Delete</a> 
+				</td> 
+		</tr>
+
+		}
+	</tbody>
+</table>

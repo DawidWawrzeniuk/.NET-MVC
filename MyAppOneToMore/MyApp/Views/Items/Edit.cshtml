@@ -1,0 +1,23 @@
+﻿@model MyAppOneToMany.Models.Item
+@{
+	ViewData["Title"] = "Edit";
+}
+<h3>Edit an item</h3>
+
+<form asp-action="Edit" method="post">								@* asp-action="Create": Określa, że po wysłaniu formularza (np. po kliknięciu przycisku „Submit”), dane będą wysyłane do akcji Create w odpowiednim kontrolerze. *@
+																	@* method="post": Określa, że formularz będzie wysyłany metodą POST, co jest odpowiednie dla operacji tworzenia (w przeciwieństwie do GET, które zazwyczaj służy do pobierania danych). *@
+	<div class="form-group">										@* <div class="form-group">: To kontener dla elementów formularza. Klasa CSS form-group jest często używana w frameworkach CSS, takich jak Bootstrap, aby stylizować grupy formularzy. *@
+		<label for="Name">Name</label>							    @* <label for="Name">Name</label>: Etykieta dla pola wejściowego, która informuje użytkownika, jakie dane mają być wprowadzone. Atrybut for="Name" wskazuje, że etykieta jest powiązana z polem o identyfikatorze Name. *@
+		<input type="text" class="form-control" asp-for="Name"/>	@* class="form-control": Klasa CSS, która zapewnia odpowiednie stylizowanie pola tekstowego, zwłaszcza gdy używasz Bootstrap. *@
+	</div>															@* asp-for="Name": Wiąże pole wejściowe z właściwością Name obiektu Item. To oznacza, że wartość wprowadzona w tym polu będzie automatycznie przypisywana do właściwości Name w obiekcie Item po wysłaniu formularza. *@
+	<div class="form-group">
+		<label for="Price">Price</label>	
+		<input type="number" class="form-control" asp-for="Price"/>
+	</div> 
+	<div class="form-group">
+		<label for="Category">Category</label>
+		<select asp-for="CategoryId" asp-items="ViewBag.Categories" class="form-control"></select>			@* ViewBag to specjalny mechanizm w ASP.NET MVC (a także w ASP.NET Core), który umożliwia przesyłanie danych z kontrolera do widoku. Jest to dynamiczny obiekt, który można używać do przechowywania informacji, które chcesz udostępnić w widoku, bez konieczności definiowania ich w modelu. *@
+	</div>
+	<button type="submit" class="btn btn-primary">Submit</button>
+
+</form>

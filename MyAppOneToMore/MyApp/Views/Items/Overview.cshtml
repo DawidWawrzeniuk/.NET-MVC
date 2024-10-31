@@ -1,0 +1,31 @@
+﻿@model MyAppOneToMany.Models.Item //dostęp do zmiennej
+@{
+
+	var message = "Hello World!";
+	var items = new List<string> { "item1", "item2", "item3" };
+
+}
+@* <p>This is the name of the item @Model.Name </p> *@
+
+<p>@message</p>
+<ul>
+	@foreach(var item in items)
+	{
+		<li>@item</li>
+	}
+</ul>
+
+@*Dyrektywy razor:
+@page	oznacza, że dany plik Razor jest stroną (page), a nie tylko widokiem (view). Umożliwia to bezpośrednie mapowanie adresów URL do tego pliku.
+@model	Umożliwia zdefiniowanie typu modelu, który będzie używany w widoku.
+@using	Umożliwia dodanie przestrzeni nazw, co pozwala na korzystanie z klas bez konieczności podawania pełnej ścieżki.
+
+
+tag helper umożliwia łączenie pola input w html z właściwością w modelu (przesyłanie danych z formularzy) np.
+*@
+<form asp-action="Submit">
+	<div>
+		<input asp-for="Name"/>
+	</div>
+	<button type="submit">Submit</button>
+</form>
