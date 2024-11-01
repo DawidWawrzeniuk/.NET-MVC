@@ -1,0 +1,26 @@
+﻿@model MyAppMoreToMore.Models.Item
+@{
+	ViewData["Title"] = "Create";
+}
+<h3>Create an item</h3>
+
+<form asp-action="Create" method="post">							@* asp-action="Create": Określa, że po wysłaniu formularza (np. po kliknięciu przycisku „Submit”), dane będą wysyłane do akcji Create w odpowiednim kontrolerze. *@
+																	@* method="post": Określa, że formularz będzie wysyłany metodą POST, co jest odpowiednie dla operacji tworzenia (w przeciwieństwie do GET, które zazwyczaj służy do pobierania danych). *@
+	<div class="form-group">										@* <div class="form-group">: To kontener dla elementów formularza. Klasa CSS form-group jest często używana w frameworkach CSS, takich jak Bootstrap, aby stylizować grupy formularzy. *@
+		<label for="Name">Name</label>							    @* <label for="Name">Name</label>: Etykieta dla pola wejściowego, która informuje użytkownika, jakie dane mają być wprowadzone. Atrybut for="Name" wskazuje, że etykieta jest powiązana z polem o identyfikatorze Name. *@
+		<input type="text" class="form-control" asp-for="Name"/>	@* class="form-control": Klasa CSS, która zapewnia odpowiednie stylizowanie pola tekstowego, zwłaszcza gdy używasz Bootstrap. *@
+	</div>															@* asp-for="Name": Wiąże pole wejściowe z właściwością Name obiektu Item. To oznacza, że wartość wprowadzona w tym polu będzie automatycznie przypisywana do właściwości Name w obiekcie Item po wysłaniu formularza. *@
+	<div class="form-group">
+		<label for="Price">Price</label>	
+		<input type="number" class="form-control" asp-for="Price"/>
+	</div> 
+	<div class="form-group">
+		<label for="Category">Category</label>
+		<select asp-for="CategoryId" asp-items="ViewBag.Categories" class="form-control"></select>			@* Atrybut asp-for automatycznie łączy pole formularza z właściwością modelu. To oznacza, że gdy użytkownik wypełni formularz i go wyśle, wartości w polach formularza zostaną przypisane do odpowiednich właściwości modelu bez konieczności pisania dodatkowego kodu. *@												
+
+																											@* <select> to element, który tworzy rozwijane menu (listę rozwijaną), umożliwiające użytkownikowi wybór jednej lub kilku opcji z predefiniowanej listy *@ 
+																											@* asp-items przyjmuje jako wartość kolekcję, która zawiera elementy, które mają być wyświetlane w liście rozwijanej. Najczęściej jest to lista obiektów, z których wybierasz wartości do pokazania użytkownikowi. *@
+	</div>																									@* Atrybut asp-items w ASP.NET (szczególnie w ASP.NET Core) służy do populowania listy rozwijanej (<select>) lub grupy przycisków radio (<input type="radio">) danymi, które są przekazywane z kontrolera. Dzięki temu można dynamicznie generować opcje w elementach formularzy, co znacznie ułatwia pracę z danymi w aplikacji webowej. *@
+		<button type="submit" class="btn btn-primary">Submit</button>
+
+</form>

@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\NET\\MyAppMoreToMore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{478E472A-B644-45C2-93A3-14EE409A9D91}|MyApp\\MyAppMoreToMore.csproj|c:\\users\\pc\\desktop\\net\\myappmoretomore\\myapp\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478E472A-B644-45C2-93A3-14EE409A9D91}|MyApp\\MyAppMoreToMore.csproj|solutionrelative:myapp\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478E472A-B644-45C2-93A3-14EE409A9D91}|MyApp\\MyAppMoreToMore.csproj|c:\\users\\pc\\desktop\\net\\myappmoretomore\\myapp\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478E472A-B644-45C2-93A3-14EE409A9D91}|MyApp\\MyAppMoreToMore.csproj|solutionrelative:myapp\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478E472A-B644-45C2-93A3-14EE409A9D91}|MyApp\\MyAppMoreToMore.csproj|c:\\users\\pc\\desktop\\net\\myappmoretomore\\myapp\\data\\myappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478E472A-B644-45C2-93A3-14EE409A9D91}|MyApp\\MyAppMoreToMore.csproj|solutionrelative:myapp\\data\\myappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478E472A-B644-45C2-93A3-14EE409A9D91}|MyApp\\MyAppMoreToMore.csproj|c:\\users\\pc\\desktop\\net\\myappmoretomore\\myapp\\models\\itemclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478E472A-B644-45C2-93A3-14EE409A9D91}|MyApp\\MyAppMoreToMore.csproj|solutionrelative:myapp\\models\\itemclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478E472A-B644-45C2-93A3-14EE409A9D91}|MyApp\\MyAppMoreToMore.csproj|c:\\users\\pc\\desktop\\net\\myappmoretomore\\myapp\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478E472A-B644-45C2-93A3-14EE409A9D91}|MyApp\\MyAppMoreToMore.csproj|solutionrelative:myapp\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478E472A-B644-45C2-93A3-14EE409A9D91}|MyApp\\MyAppMoreToMore.csproj|c:\\users\\pc\\desktop\\net\\myappmoretomore\\myapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478E472A-B644-45C2-93A3-14EE409A9D91}|MyApp\\MyAppMoreToMore.csproj|solutionrelative:myapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478E472A-B644-45C2-93A3-14EE409A9D91}|MyApp\\MyAppMoreToMore.csproj|c:\\users\\pc\\desktop\\net\\myappmoretomore\\myapp\\views\\items\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{478E472A-B644-45C2-93A3-14EE409A9D91}|MyApp\\MyAppMoreToMore.csproj|solutionrelative:myapp\\views\\items\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\NET\\MyAppMoreToMore\\MyApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MyApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\NET\\MyAppMoreToMore\\MyApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MyApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T18:32:13.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\NET\\MyAppMoreToMore\\MyApp\\Views\\Items\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyApp\\Views\\Items\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\NET\\MyAppMoreToMore\\MyApp\\Views\\Items\\Index.cshtml",
+              "RelativeToolTip": "MyApp\\Views\\Items\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T18:23:51.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\NET\\MyAppMoreToMore\\MyApp\\Controllers\\ItemsController.cs",
+              "RelativeDocumentMoniker": "MyApp\\Controllers\\ItemsController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\NET\\MyAppMoreToMore\\MyApp\\Controllers\\ItemsController.cs",
+              "RelativeToolTip": "MyApp\\Controllers\\ItemsController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAQwCsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T18:14:29.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyAppContext.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\NET\\MyAppMoreToMore\\MyApp\\Data\\MyAppContext.cs",
+              "RelativeDocumentMoniker": "MyApp\\Data\\MyAppContext.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\NET\\MyAppMoreToMore\\MyApp\\Data\\MyAppContext.cs",
+              "RelativeToolTip": "MyApp\\Data\\MyAppContext.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAAC0AAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T17:43:12.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ItemClient.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\NET\\MyAppMoreToMore\\MyApp\\Models\\ItemClient.cs",
+              "RelativeDocumentMoniker": "MyApp\\Models\\ItemClient.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\NET\\MyAppMoreToMore\\MyApp\\Models\\ItemClient.cs",
+              "RelativeToolTip": "MyApp\\Models\\ItemClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T17:42:33.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\NET\\MyAppMoreToMore\\MyApp\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "MyApp\\Models\\Client.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\NET\\MyAppMoreToMore\\MyApp\\Models\\Client.cs",
+              "RelativeToolTip": "MyApp\\Models\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T17:41:09.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\NET\\MyAppMoreToMore\\MyApp\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "MyApp\\Models\\Item.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\NET\\MyAppMoreToMore\\MyApp\\Models\\Item.cs",
+              "RelativeToolTip": "MyApp\\Models\\Item.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T17:20:08.944Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
